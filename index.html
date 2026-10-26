@@ -1350,10 +1350,10 @@
           }
         }
 
-        if (prefersReducedMotion || !canvas || !canvas.getContext) {
-          enableStaticFallback();
-          return;
-        }
+        if (!canvas || !canvas.getContext) {
+  enableStaticFallback();
+  return;
+}
 
         const ctx = canvas.getContext('2d');
         if (!ctx) {
