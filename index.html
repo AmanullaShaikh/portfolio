@@ -651,316 +651,260 @@
           </article>
         </div>
       </section>
+<!-- ================= 3. THINKING SECTION (How I build systems) ================= -->
+<section
+  id="thinking"
+  aria-labelledby="thinking-heading"
+  class="relative border-b border-[rgba(255,255,255,0.08)] bg-[#0a0a0c] pt-[70px] pb-[95px] px-[20px] scroll-mt-20 overflow-hidden"
+>
+  <style>
+    .hash-cloud-container {
+      mask-image: radial-gradient(ellipse 65% 55% at 50% 46%, black 30%, transparent 95%);
+      -webkit-mask-image: radial-gradient(ellipse 65% 55% at 50% 46%, black 30%, transparent 95%);
+    }
+    .cyber-lock-glow {
+      box-shadow: 0 0 35px rgba(239, 68, 68, 0.4), inset 0 0 15px rgba(239, 68, 68, 0.2);
+    }
+  </style>
 
-      <!-- 3. CAPABILITIES (Technical Matrix) -->
-      <section
-        id="capabilities"
-        aria-labelledby="capabilities-heading"
-        class="border-b border-[rgba(255,255,255,0.08)] bg-[#0a0a0c] py-[90px] px-[24px] scroll-mt-20"
-      >
-        <div class="mx-auto max-w-[1100px]">
-          <div class="mb-10">
-            <h2
-              id="capabilities-heading"
-              class="text-2xl sm:text-3xl font-bold tracking-tight text-[#f4f4f5]"
-            >
-              Engineered with modern tools.
-            </h2>
-          </div>
+  <div class="relative mx-auto max-w-[820px] flex flex-col items-center">
+    
+    <!-- TOP GRAPHIC: Elliptical Hash Matrix + Cyber Lock + Title Overlap -->
+    <div class="relative w-full flex flex-col items-center justify-center min-h-[300px] mb-8 select-none">
+      
+      <!-- Elliptical Hash Cloud Canvas -->
+      <div class="hash-cloud-container absolute inset-x-0 top-0 h-[290px] w-full flex items-center justify-center pointer-events-none">
+        <canvas id="hash-matrix-canvas" class="w-full h-full"></canvas>
+      </div>
 
-          <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-            <!-- Card 1 -->
-            <div
-              class="rounded-xl border border-[rgba(255,255,255,0.08)] bg-[#111114] p-6 transition-all duration-200 hover:border-[rgba(255,255,255,0.18)] hover:bg-[#141418]"
-            >
-              <h3 class="text-base font-semibold tracking-tight text-[#f4f4f5]">
-                Full-Stack Development
-              </h3>
-              <p class="mt-3 text-sm leading-relaxed text-[#a1a1aa]">
-                React, Next.js / Vite, TypeScript, Tailwind CSS, State Management, REST APIs.
-              </p>
-            </div>
-
-            <!-- Card 2 -->
-            <div
-              class="rounded-xl border border-[rgba(255,255,255,0.08)] bg-[#111114] p-6 transition-all duration-200 hover:border-[rgba(255,255,255,0.18)] hover:bg-[#141418]"
-            >
-              <h3 class="text-base font-semibold tracking-tight text-[#f4f4f5]">
-                Cloud &amp; Infrastructure
-              </h3>
-              <p class="mt-3 text-sm leading-relaxed text-[#a1a1aa]">
-                Node.js, Express, Firebase (Auth, Firestore, Storage), Cloud Functions.
-              </p>
-            </div>
-
-            <!-- Card 3 -->
-            <div
-              class="rounded-xl border border-[rgba(255,255,255,0.08)] bg-[#111114] p-6 transition-all duration-200 hover:border-[rgba(255,255,255,0.18)] hover:bg-[#141418]"
-            >
-              <h3 class="text-base font-semibold tracking-tight text-[#f4f4f5]">
-                Video &amp; Post-Production
-              </h3>
-              <p class="mt-3 text-sm leading-relaxed text-[#a1a1aa]">
-                High-pace NLE editing, sound design, visual pacing, motion systems.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-<!-- ================= 3.5. THINKING SECTION (How I build systems) ================= -->
-      <section
-        id="thinking"
-        aria-labelledby="thinking-heading"
-        class="relative border-b border-[rgba(255,255,255,0.08)] bg-[#0a0a0c] pt-[70px] pb-[95px] px-[20px] scroll-mt-20 overflow-hidden"
-      >
-        <style>
-          .hash-cloud-container {
-            mask-image: radial-gradient(ellipse 65% 55% at 50% 46%, black 30%, transparent 95%);
-            -webkit-mask-image: radial-gradient(ellipse 65% 55% at 50% 46%, black 30%, transparent 95%);
-          }
-          .cyber-lock-glow {
-            box-shadow: 0 0 35px rgba(168, 85, 247, 0.45), inset 0 0 15px rgba(168, 85, 247, 0.25);
-          }
-        </style>
-
-        <div class="relative mx-auto max-w-[820px] flex flex-col items-center">
+      <!-- Center Lock Mechanism -->
+      <div class="relative z-10 flex flex-col items-center mt-4">
+        <!-- Outer Glowing Pulsing Aura -->
+        <div class="relative flex items-center justify-center w-20 h-20">
+          <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-red-600/30 via-red-900/20 to-red-500/40 blur-lg animate-pulse"></div>
+          <div class="absolute inset-0.5 rounded-full border border-red-500/30 animate-[spin_18s_linear_infinite]"></div>
+          <div class="absolute inset-2 rounded-full border border-dashed border-red-400/20 animate-[spin_12s_linear_infinite_reverse]"></div>
           
-          <!-- TOP GRAPHIC: Elliptical Hash Matrix + Cyber Lock + Title Overlap -->
-          <div class="relative w-full flex flex-col items-center justify-center min-h-[300px] mb-8 select-none">
-            
-            <!-- Elliptical Hash Cloud Canvas -->
-            <div class="hash-cloud-container absolute inset-x-0 top-0 h-[290px] w-full flex items-center justify-center pointer-events-none">
-              <canvas id="hash-matrix-canvas" class="w-full h-full"></canvas>
-            </div>
-
-            <!-- Center Lock Mechanism -->
-            <div class="relative z-10 flex flex-col items-center mt-4">
-              <!-- Outer Glowing Pulsing Aura -->
-              <div class="relative flex items-center justify-center w-20 h-20">
-                <div class="absolute inset-0 rounded-full bg-gradient-to-tr from-purple-600/40 via-cyan-400/20 to-purple-500/50 blur-lg animate-pulse"></div>
-                <div class="absolute inset-0.5 rounded-full border border-purple-400/40 animate-[spin_18s_linear_infinite]"></div>
-                <div class="absolute inset-2 rounded-full border border-dashed border-cyan-400/30 animate-[spin_12s_linear_infinite_reverse]"></div>
-                
-                <!-- Center Lock Core -->
-                <div class="cyber-lock-glow relative w-12 h-12 rounded-full bg-[#0d0e14] border border-purple-400/60 flex items-center justify-center">
-                  <svg class="w-6 h-6 text-purple-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
-                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
-                    <path d="M12 14v3"></path>
-                    <circle cx="12" cy="15.5" r="1" fill="currentColor"></circle>
-                  </svg>
-                </div>
-              </div>
-
-              <!-- Pill Badge: How I think -->
-              <div class="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[11px] font-semibold tracking-wide text-purple-300 bg-[#0d0d12] border border-purple-500/40 shadow-[0_0_12px_rgba(168,85,247,0.3)] mt-3 mb-2">
-                <span class="w-1.5 h-1.5 rounded-full bg-purple-400"></span>
-                How I think
-              </div>
-
-              <!-- Heading Overlapping Hash Cloud -->
-              <h2
-                id="thinking-heading"
-                class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white text-center drop-shadow-[0_4px_16px_rgba(0,0,0,0.8)]"
-              >
-                How I build systems
-              </h2>
-            </div>
-          </div>
-
-          <!-- CARDS STACK: Exact Vertical Layout with Squircle Badges -->
-          <div class="w-full max-w-[620px] flex flex-col gap-3 z-10">
-            
-            <!-- Card 1: Explainable AI -->
-            <div class="group flex items-center gap-4 rounded-2xl border border-[rgba(255,255,255,0.08)] bg-[#111114]/90 backdrop-blur-md p-4 sm:p-5 transition-all duration-200 hover:border-purple-500/40 hover:bg-[#141418] hover:shadow-[0_8px_30px_rgba(0,0,0,0.5)]">
-              <div class="w-11 h-11 shrink-0 rounded-xl bg-purple-600/25 border border-purple-500/40 flex items-center justify-center text-purple-200 shadow-[0_0_16px_rgba(168,85,247,0.35)] group-hover:scale-105 transition-transform">
-                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
-                </svg>
-              </div>
-              <div class="min-w-0 flex-1">
-                <div class="flex items-center gap-2">
-                  <h3 class="text-sm sm:text-base font-bold text-white tracking-tight">
-                    Explainable AI
-                  </h3>
-                  <span class="text-zinc-600 font-bold">&middot;</span>
-                  <span class="text-xs font-mono text-zinc-400">1m ago</span>
-                </div>
-                <p class="mt-0.5 text-xs sm:text-[13px] leading-relaxed text-[#a1a1aa]">
-                  Prefer transparent, explainable AI over black-box decisions
-                </p>
-              </div>
-            </div>
-
-            <!-- Card 2: Resilient design -->
-            <div class="group flex items-center gap-4 rounded-2xl border border-[rgba(255,255,255,0.08)] bg-[#111114]/90 backdrop-blur-md p-4 sm:p-5 transition-all duration-200 hover:border-blue-500/40 hover:bg-[#141418] hover:shadow-[0_8px_30px_rgba(0,0,0,0.5)]">
-              <div class="w-11 h-11 shrink-0 rounded-xl bg-blue-600/25 border border-blue-500/40 flex items-center justify-center text-blue-200 shadow-[0_0_16px_rgba(59,130,246,0.35)] group-hover:scale-105 transition-transform">
-                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                </svg>
-              </div>
-              <div class="min-w-0 flex-1">
-                <div class="flex items-center gap-2">
-                  <h3 class="text-sm sm:text-base font-bold text-white tracking-tight">
-                    Resilient design
-                  </h3>
-                  <span class="text-zinc-600 font-bold">&middot;</span>
-                  <span class="text-xs font-mono text-zinc-400">7m ago</span>
-                </div>
-                <p class="mt-0.5 text-xs sm:text-[13px] leading-relaxed text-[#a1a1aa]">
-                  Design systems that remain usable offline and under constraints
-                </p>
-              </div>
-            </div>
-
-            <!-- Card 3: Iterative prototyping -->
-            <div class="group flex items-center gap-4 rounded-2xl border border-[rgba(255,255,255,0.08)] bg-[#111114]/90 backdrop-blur-md p-4 sm:p-5 transition-all duration-200 hover:border-indigo-500/40 hover:bg-[#141418] hover:shadow-[0_8px_30px_rgba(0,0,0,0.5)]">
-              <div class="w-11 h-11 shrink-0 rounded-xl bg-indigo-600/25 border border-indigo-500/40 flex items-center justify-center text-indigo-200 shadow-[0_0_16px_rgba(99,102,241,0.35)] group-hover:scale-105 transition-transform">
-                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="4 17 10 11 4 5"></polyline>
-                  <line x1="12" y1="19" x2="20" y2="19"></line>
-                </svg>
-              </div>
-              <div class="min-w-0 flex-1">
-                <div class="flex items-center gap-2">
-                  <h3 class="text-sm sm:text-base font-bold text-white tracking-tight">
-                    Iterative prototyping
-                  </h3>
-                  <span class="text-zinc-600 font-bold">&middot;</span>
-                  <span class="text-xs font-mono text-zinc-400">12m ago</span>
-                </div>
-                <p class="mt-0.5 text-xs sm:text-[13px] leading-relaxed text-[#a1a1aa]">
-                  Prototype fast, then refine for performance and scalability
-                </p>
-              </div>
-            </div>
-
-            <!-- Card 4: Problem first -->
-            <div class="group flex items-center gap-4 rounded-2xl border border-[rgba(255,255,255,0.08)] bg-[#111114]/90 backdrop-blur-md p-4 sm:p-5 transition-all duration-200 hover:border-purple-500/40 hover:bg-[#141418] hover:shadow-[0_8px_30px_rgba(0,0,0,0.5)]">
-              <div class="w-11 h-11 shrink-0 rounded-xl bg-purple-600/25 border border-purple-500/40 flex items-center justify-center text-purple-200 shadow-[0_0_16px_rgba(168,85,247,0.35)] group-hover:scale-105 transition-transform">
-                <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M12 2v1M12 21v1M4.22 4.22l.71.71M18.36 18.36l.71.71M1 12h2M21 12h2M4.22 19.78l.71-.71M18.36 5.64l.71-.71"></path>
-                  <circle cx="12" cy="12" r="5"></circle>
-                </svg>
-              </div>
-              <div class="min-w-0 flex-1">
-                <div class="flex items-center gap-2">
-                  <h3 class="text-sm sm:text-base font-bold text-white tracking-tight">
-                    Problem first
-                  </h3>
-                  <span class="text-zinc-600 font-bold">&middot;</span>
-                  <span class="text-xs font-mono text-zinc-400">20m ago</span>
-                </div>
-                <p class="mt-0.5 text-xs sm:text-[13px] leading-relaxed text-[#a1a1aa]">
-                  Start with the real-world problem, not the technology
-                </p>
-              </div>
-            </div>
-
+          <!-- Center Lock Core -->
+          <div class="cyber-lock-glow relative w-12 h-12 rounded-full bg-[#0d0e14] border border-red-500/50 flex items-center justify-center">
+            <svg class="w-6 h-6 text-red-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+              <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              <path d="M12 14v3"></path>
+              <circle cx="12" cy="15.5" r="1" fill="currentColor"></circle>
+            </svg>
           </div>
         </div>
 
-        <!-- Canvas Script for Elliptical Crypto Hash Matrix -->
-        <script>
-          (function () {
-            const canvas = document.getElementById('hash-matrix-canvas');
-            if (!canvas) return;
-            const ctx = canvas.getContext('2d');
+        <!-- Pill Badge: How I think -->
+        <div class="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full text-[11px] font-semibold tracking-wide text-red-300 bg-[#0d0d12] border border-red-500/40 shadow-[0_0_12px_rgba(239,68,68,0.25)] mt-3 mb-2">
+          <span class="w-1.5 h-1.5 rounded-full bg-red-500"></span>
+          How I think
+        </div>
 
-            const tokenPool = [
-              'fdSD2fu1', '5KX+FsJ', 'B2gsa33Xcfhe', 'FiM5dhX4v7h', '5Xw72W',
-              'LKfxBl4g55MreH', 'VG3gVs3e2Fd', 'Jp4xsMgddz0KdaW+', 'E1pUrhA1q2r8',
-              'DiQ9e+pupwKYwI8tzg', 'B7qyrOzOgu0zFTjOnU', 'Gzot4tTaxfcFxO65aFHq2',
-              'qalBbVlbQsvT8kazvmE2yn', 'NtA0FYWPVbCB6KVJqFRI', '1x4NuAhKeVvMqsLvC',
-              '65aq2AbSQcbefoN', '8VeByS12XKmrRj3isr', 'fu0js30F3', 'aFdxxz',
-              '8df1uSs', '1FQ2+x48j', 'qeliAyo+w2mQFZHF', 'WlpBkdf2sdvRBaJ62Ntu2'
-            ];
+        <!-- Heading Overlapping Hash Cloud -->
+        <h2
+          id="thinking-heading"
+          class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-white text-center drop-shadow-[0_4px_16px_rgba(0,0,0,0.8)]"
+        >
+          How I build systems
+        </h2>
+      </div>
+    </div>
 
-            const highlightColors = [
-              'rgba(96, 165, 250, 0.95)',   // bright blue
-              'rgba(168, 85, 247, 0.95)',  // bright purple
-              'rgba(56, 189, 248, 0.95)',   // cyan
-              'rgba(192, 132, 252, 0.95)'   // light violet
-            ];
+    <!-- CARDS STACK: Exact Vertical Layout with Squircle Badges -->
+    <div class="w-full max-w-[620px] flex flex-col gap-3 z-10">
+      
+      <!-- Card 1: Explainable AI -->
+      <div class="group flex items-center gap-4 rounded-2xl border border-[rgba(255,255,255,0.08)] bg-[#111114]/90 backdrop-blur-md p-4 sm:p-5 transition-all duration-200 hover:border-red-500/40 hover:bg-[#141418] hover:shadow-[0_8px_30px_rgba(0,0,0,0.5)]">
+        <div class="w-11 h-11 shrink-0 rounded-xl bg-red-500/10 border border-red-500/30 flex items-center justify-center text-red-400 shadow-[0_0_16px_rgba(239,68,68,0.2)] group-hover:scale-105 transition-transform">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+          </svg>
+        </div>
+        <div class="min-w-0 flex-1">
+          <div class="flex items-center gap-2">
+            <h3 class="text-sm sm:text-base font-bold text-white tracking-tight">
+              Explainable AI
+            </h3>
+            <span class="text-zinc-600 font-bold">&middot;</span>
+            <span class="text-xs font-mono text-zinc-400">1m ago</span>
+          </div>
+          <p class="mt-0.5 text-xs sm:text-[13px] leading-relaxed text-[#a1a1aa]">
+            Prefer transparent, explainable AI over black-box decisions
+          </p>
+        </div>
+      </div>
 
-            let lines = [];
-            const rowCount = 13;
+      <!-- Card 2: Resilient design -->
+      <div class="group flex items-center gap-4 rounded-2xl border border-[rgba(255,255,255,0.08)] bg-[#111114]/90 backdrop-blur-md p-4 sm:p-5 transition-all duration-200 hover:border-red-500/40 hover:bg-[#141418] hover:shadow-[0_8px_30px_rgba(0,0,0,0.5)]">
+        <div class="w-11 h-11 shrink-0 rounded-xl bg-red-500/10 border border-red-500/30 flex items-center justify-center text-red-400 shadow-[0_0_16px_rgba(239,68,68,0.2)] group-hover:scale-105 transition-transform">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+          </svg>
+        </div>
+        <div class="min-w-0 flex-1">
+          <div class="flex items-center gap-2">
+            <h3 class="text-sm sm:text-base font-bold text-white tracking-tight">
+              Resilient design
+            </h3>
+            <span class="text-zinc-600 font-bold">&middot;</span>
+            <span class="text-xs font-mono text-zinc-400">7m ago</span>
+          </div>
+          <p class="mt-0.5 text-xs sm:text-[13px] leading-relaxed text-[#a1a1aa]">
+            Design systems that remain usable offline and under constraints
+          </p>
+        </div>
+      </div>
 
-            function resize() {
-              const rect = canvas.parentElement.getBoundingClientRect();
-              canvas.width = rect.width * (window.devicePixelRatio || 1);
-              canvas.height = rect.height * (window.devicePixelRatio || 1);
-              ctx.scale(window.devicePixelRatio || 1, window.devicePixelRatio || 1);
-              generateGrid(rect.width, rect.height);
+      <!-- Card 3: Iterative prototyping -->
+      <div class="group flex items-center gap-4 rounded-2xl border border-[rgba(255,255,255,0.08)] bg-[#111114]/90 backdrop-blur-md p-4 sm:p-5 transition-all duration-200 hover:border-red-500/40 hover:bg-[#141418] hover:shadow-[0_8px_30px_rgba(0,0,0,0.5)]">
+        <div class="w-11 h-11 shrink-0 rounded-xl bg-red-500/10 border border-red-500/30 flex items-center justify-center text-red-400 shadow-[0_0_16px_rgba(239,68,68,0.2)] group-hover:scale-105 transition-transform">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="4 17 10 11 4 5"></polyline>
+            <line x1="12" y1="19" x2="20" y2="19"></line>
+          </svg>
+        </div>
+        <div class="min-w-0 flex-1">
+          <div class="flex items-center gap-2">
+            <h3 class="text-sm sm:text-base font-bold text-white tracking-tight">
+              Iterative prototyping
+            </h3>
+            <span class="text-zinc-600 font-bold">&middot;</span>
+            <span class="text-xs font-mono text-zinc-400">12m ago</span>
+          </div>
+          <p class="mt-0.5 text-xs sm:text-[13px] leading-relaxed text-[#a1a1aa]">
+            Prototype fast, then refine for performance and scalability
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 4: Problem first -->
+      <div class="group flex items-center gap-4 rounded-2xl border border-[rgba(255,255,255,0.08)] bg-[#111114]/90 backdrop-blur-md p-4 sm:p-5 transition-all duration-200 hover:border-red-500/40 hover:bg-[#141418] hover:shadow-[0_8px_30px_rgba(0,0,0,0.5)]">
+        <div class="w-11 h-11 shrink-0 rounded-xl bg-red-500/10 border border-red-500/30 flex items-center justify-center text-red-400 shadow-[0_0_16px_rgba(239,68,68,0.2)] group-hover:scale-105 transition-transform">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v1M12 21v1M4.22 4.22l.71.71M18.36 18.36l.71.71M1 12h2M21 12h2M4.22 19.78l.71-.71M18.36 5.64l.71-.71"></path>
+            <circle cx="12" cy="12" r="5"></circle>
+          </svg>
+        </div>
+        <div class="min-w-0 flex-1">
+          <div class="flex items-center gap-2">
+            <h3 class="text-sm sm:text-base font-bold text-white tracking-tight">
+              Problem first
+            </h3>
+            <span class="text-zinc-600 font-bold">&middot;</span>
+            <span class="text-xs font-mono text-zinc-400">20m ago</span>
+          </div>
+          <p class="mt-0.5 text-xs sm:text-[13px] leading-relaxed text-[#a1a1aa]">
+            Start with the real-world problem, not the technology
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Canvas Script for Elliptical Crypto Hash Matrix -->
+  <script>
+    (function () {
+      const canvas = document.getElementById('hash-matrix-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+
+      const tokenPool = [
+        'fdSD2fu1', '5KX+FsJ', 'B2gsa33Xcfhe', 'FiM5dhX4v7h', '5Xw72W',
+        'LKfxBl4g55MreH', 'VG3gVs3e2Fd', 'Jp4xsMgddz0KdaW+', 'E1pUrhA1q2r8',
+        'DiQ9e+pupwKYwI8tzg', 'B7qyrOzOgu0zFTjOnU', 'Gzot4tTaxfcFxO65aFHq2',
+        'qalBbVlbQsvT8kazvmE2yn', 'NtA0FYWPVbCB6KVJqFRI', '1x4NuAhKeVvMqsLvC',
+        '65aq2AbSQcbefoN', '8VeByS12XKmrRj3isr', 'fu0js30F3', 'aFdxxz',
+        '8df1uSs', '1FQ2+x48j', 'qeliAyo+w2mQFZHF', 'WlpBkdf2sdvRBaJ62Ntu2'
+      ];
+
+      const highlightColors = [
+        'rgba(239, 68, 68, 0.95)',   // bright red (#ef4444)
+        'rgba(248, 113, 113, 0.95)', // light coral red (#f87171)
+        'rgba(220, 38, 38, 0.95)',   // deep crimson (#dc2626)
+        'rgba(252, 165, 165, 0.9)'   // soft red (#fca5a5)
+      ];
+
+      let lines = [];
+      const rowCount = 13;
+
+      function resize() {
+        const rect = canvas.parentElement.getBoundingClientRect();
+        canvas.width = rect.width * (window.devicePixelRatio || 1);
+        canvas.height = rect.height * (window.devicePixelRatio || 1);
+        ctx.scale(window.devicePixelRatio || 1, window.devicePixelRatio || 1);
+        generateGrid(rect.width, rect.height);
+      }
+
+      function generateGrid(width, height) {
+        lines = [];
+        const rowHeight = height / (rowCount + 1);
+
+        for (let r = 0; r < rowCount; r++) {
+          let rowTokens = [];
+          let currentX = -40 + (Math.random() * 30);
+          const y = (r + 1) * rowHeight;
+
+          while (currentX < width + 80) {
+            const text = tokenPool[Math.floor(Math.random() * tokenPool.length)];
+            const sep = ' .. ';
+            const isHighlight = Math.random() < 0.16;
+            const color = isHighlight
+              ? highlightColors[Math.floor(Math.random() * highlightColors.length)]
+              : 'rgba(255, 255, 255, 0.12)';
+
+            rowTokens.push({ text: text + sep, x: currentX, y, color, isHighlight });
+            currentX += (text.length * 7.2) + 20;
+          }
+          lines.push(rowTokens);
+        }
+      }
+
+      function draw() {
+        const rect = canvas.parentElement.getBoundingClientRect();
+        ctx.clearRect(0, 0, rect.width, rect.height);
+        ctx.font = '11px "Geist Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace';
+
+        lines.forEach(row => {
+          row.forEach(item => {
+            ctx.fillStyle = item.color;
+            if (item.isHighlight) {
+              ctx.shadowColor = item.color;
+              ctx.shadowBlur = 7;
+            } else {
+              ctx.shadowBlur = 0;
             }
+            ctx.fillText(item.text, item.x, item.y);
+          });
+        });
+      }
 
-            function generateGrid(width, height) {
-              lines = [];
-              const rowHeight = height / (rowCount + 1);
+      resize();
+      draw();
+      window.addEventListener('resize', () => {
+        resize();
+        draw();
+      });
 
-              for (let r = 0; r < rowCount; r++) {
-                let rowTokens = [];
-                let currentX = -40 + (Math.random() * 30);
-                const y = (r + 1) * rowHeight;
-
-                while (currentX < width + 80) {
-                  const text = tokenPool[Math.floor(Math.random() * tokenPool.length)];
-                  const sep = ' .. ';
-                  const isHighlight = Math.random() < 0.16;
-                  const color = isHighlight
-                    ? highlightColors[Math.floor(Math.random() * highlightColors.length)]
-                    : 'rgba(255, 255, 255, 0.13)';
-
-                  rowTokens.push({ text: text + sep, x: currentX, y, color, isHighlight });
-                  currentX += (text.length * 7.2) + 20;
-                }
-                lines.push(rowTokens);
-              }
+      // Twinkle effect every 2.5s
+      setInterval(() => {
+        lines.forEach(row => {
+          row.forEach(item => {
+            if (Math.random() < 0.08) {
+              item.isHighlight = !item.isHighlight;
+              item.color = item.isHighlight
+                ? highlightColors[Math.floor(Math.random() * highlightColors.length)]
+                : 'rgba(255, 255, 255, 0.12)';
             }
-
-            function draw() {
-              const rect = canvas.parentElement.getBoundingClientRect();
-              ctx.clearRect(0, 0, rect.width, rect.height);
-              ctx.font = '11px "Geist Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace';
-
-              lines.forEach(row => {
-                row.forEach(item => {
-                  ctx.fillStyle = item.color;
-                  if (item.isHighlight) {
-                    ctx.shadowColor = item.color;
-                    ctx.shadowBlur = 6;
-                  } else {
-                    ctx.shadowBlur = 0;
-                  }
-                  ctx.fillText(item.text, item.x, item.y);
-                });
-              });
-            }
-
-            resize();
-            draw();
-            window.addEventListener('resize', () => {
-              resize();
-              draw();
-            });
-
-            // Subtle twinkle effect every 2.5s
-            setInterval(() => {
-              lines.forEach(row => {
-                row.forEach(item => {
-                  if (Math.random() < 0.08) {
-                    item.isHighlight = !item.isHighlight;
-                    item.color = item.isHighlight
-                      ? highlightColors[Math.floor(Math.random() * highlightColors.length)]
-                      : 'rgba(255, 255, 255, 0.13)';
-                  }
-                });
-              });
-              draw();
-            }, 2500);
-          })();
-        </script>
-      </section>
+          });
+        });
+        draw();
+      }, 2500);
+    })();
+  </script>
+</section>
       <!-- 4. SERVICES & COLLABORATION -->
 <section
   id="services"
