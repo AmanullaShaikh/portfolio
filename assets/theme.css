@@ -62,3 +62,5 @@ body, .skills, .think, .experience, .education, .projects, .tetris, .footer {
 .skills-showcase-button-text {
   color: #e4e4e7 !important;
 }
+
+.skills-showcase-button, .skills-showcase-button:focus, .skills-showcase-button:focus-visible { outline: none !important; box-shadow: none !important; }
