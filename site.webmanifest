@@ -1,0 +1,17 @@
+{
+  "name": "Amanulla Shaikh \u2014 Creative Engineer & Web Developer",
+  "short_name": "Amanulla Shaikh",
+  "description": "Portfolio of Amanulla Shaikh \u2014 Creative Engineer & Full-Stack Developer from Khanakul, Hooghly, West Bengal (Kolkata & Howrah). Creator of CutProof & Aveyx.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0c",
+  "theme_color": "#0a0a0c",
+  "icons": [
+    {
+      "src": "./assets/as-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
