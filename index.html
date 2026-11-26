@@ -1209,9 +1209,7 @@
   </script>
 <script>
       (function () {
-        const prefersReducedMotion =
-          window.matchMedia &&
-          window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const prefersReducedMotion = false;
 
         // 1. Build Intro Text DOM Letters ("AMANULLA SHAIKH" -> "PORTFOLIO")
         const nameContainer = document.getElementById('intro-name');
